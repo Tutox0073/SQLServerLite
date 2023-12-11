@@ -31,8 +31,8 @@ export default defineConfig({
                 text: 'Usage',
                 collapsed: false,
                 items: [
-                    {text: 'Numbers To Letters', link: '/usage/numbers-to-letters'},
-                    {text: 'Numbers To Money', link: '/usage/numbers-to-money'},
+                    {text: 'Connection', link: '/usage/connection'},
+                    {text: 'Query Methods', link: '/usage/query-methods'},
                     {text: 'Numbers To Ordinal', link: '/usage/numbers-to-ordinal'},
                     {text: 'Config File', link: '/usage/config-file'},
                     {text: 'Config Custom Callback', link: '/usage/config-custom-callback'},
