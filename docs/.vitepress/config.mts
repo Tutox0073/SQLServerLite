@@ -1,22 +1,22 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
-    title: "Laravel SpellNumber",
-    description: "Easily convert numbers to words in Laravel Framework.",
+    title: "Laravel SQLServerLite",
+    description: "An easy, fast, and efficient way to use SQL Server databases in your Laravel developments.",
     lang: 'en-US',
     lastUpdated: false,
-    base: '/SpellNumber',
+    base: '/SQLServerLite',
     themeConfig: {
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2021-2023 Raul Mauricio Uñate'
         },
         editLink: {
-            pattern: 'https://github.com/rmunate/SpellNumber/tree/main/docs/:path'
+            pattern: 'https://github.com/rmunate/SQLServerLite/tree/main/docs/:path'
         },
         logo: '/img/logo.png',
         nav: [
-            {text: 'v4.2.2', link: '/'},
+            {text: 'v2.0.0', link: '/'},
         ],
         sidebar: [
             {
@@ -25,20 +25,17 @@ export default defineConfig({
                 items: [
                     {text: 'Introduction', link: '/getting-started/introduction'},
                     {text: 'Installation', link: '/getting-started/installation'},
-                    {text: 'Publish Vendor', link: '/getting-started/publish-vendor'},
                     {text: 'Release Notes', link: '/getting-started/changelog'},
                 ]
             }, {
                 text: 'Usage',
                 collapsed: false,
                 items: [
-                    {text: 'Languages Available', link: '/usage/languages-available.md'},
                     {text: 'Numbers To Letters', link: '/usage/numbers-to-letters'},
                     {text: 'Numbers To Money', link: '/usage/numbers-to-money'},
                     {text: 'Numbers To Ordinal', link: '/usage/numbers-to-ordinal'},
                     {text: 'Config File', link: '/usage/config-file'},
                     {text: 'Config Custom Callback', link: '/usage/config-custom-callback'},
-                    {text: 'Macroable', link: '/usage/macroable'},
                 ]
             }, {
                 text: 'Contribute',
@@ -51,7 +48,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/rmunate/SpellNumber'}
+            {icon: 'github', link: 'https://github.com/rmunate/SQLServerLite'}
         ],
         search: {
             provider: 'local'
@@ -60,23 +57,23 @@ export default defineConfig({
     head: [
         ['link', { 
                 rel: 'stylesheet', 
-                href: '/SpellNumber/css/style.css' 
+                href: '/SQLServerLite/css/style.css' 
             }
         ],
         ['link', {
                 rel: 'icon',
-                href: '/SpellNumber/img/logo.png',
+                href: '/SQLServerLite/img/logo.png',
                 type: 'image/png'
             }
         ],
         ['meta', {
                 property: 'og:image',
-                content: '/SpellNumber/img/logo-github.png' 
+                content: '/SQLServerLite/img/logo-github.png' 
             }
         ],
         ['meta', {
                 property: 'og:image:secure_url',
-                content: '/SpellNumber/img/logo-github.png'
+                content: '/SQLServerLite/img/logo-github.png'
             }
         ],
         ['meta', {
@@ -91,7 +88,7 @@ export default defineConfig({
         ],
         ['meta', {
                 property: 'og:title',
-                content: 'SpellNumber'
+                content: 'SQLServerLite'
             }
         ],
         ['meta', {
@@ -101,7 +98,7 @@ export default defineConfig({
         ],
         ['meta', {
                 property: 'og:url',
-                content: 'https://rmunate.github.io/SpellNumber/'
+                content: 'https://rmunate.github.io/SQLServerLite/'
             }
         ],
         ['meta', {

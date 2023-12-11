@@ -75,6 +75,14 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/datlechin'},
     ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/79948570?s=400&v=4',
+    name: 'Carlos Giovanny Rodriguez Triviño',
+    title: 'Developer | Bogotá DC - Colombia',
+    links: [
+      { icon: 'github', link: 'https://github.com/cgrodriguezt'},
+    ]
   }
 ]
 </script>

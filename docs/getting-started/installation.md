@@ -8,22 +8,18 @@ outline: deep
 
 ## Requirements
 
-For this solution to work correctly, you must have at least PHP 8.0 installed, as the package includes typed data in its core.
-
-You must have Laravel Framework version 8 or higher.
-
-Finally, our package relies on the native PHP `INTL` extension, check in your `php.ini` that you have it.
+For this library to function correctly, it is necessary to have PHP 8.0 or a higher version and Laravel 8 or a higher version
 
 ## Install
 
 ### Composer
 
-To install the dependency via Composer, execute the following command:
+To install the dependency using Composer, run the following command:
 
 ``` bash
-composer require rmunate/spell-number
+composer require rmunate/sql-server-lite
 ```
 
-The package will automatically register itself.
+The package will be automatically registered.
 
-**That's all!**
+**That's it!**
